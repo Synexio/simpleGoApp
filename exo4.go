@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+
 	req, err := http.NewRequest("GET", "https://icanhazdadjoke.com", nil)
 	if err != nil {
 		log.Fatalln(err)
