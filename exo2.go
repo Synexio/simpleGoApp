@@ -15,6 +15,6 @@ func main() {
 
 	date = time.Now()
 	birthYear = uint16(date.Year()) - age
-	fmt.Println("Nous sommes en", date.Year())
+	fmt.Println("Nous sommes le", date.Format("02/01/2006"))
 	fmt.Println("Vous etes née en", birthYear, "ou bien en", birthYear-1)
 }
